@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: polarbear
+theme: landscape
 # plugins: hexo-renderer-scss
 
 # Deployment
@@ -102,6 +102,7 @@ deploy:
   type: git
   repo: https://github.com/AmeLYZ/AmeLiu.github.io
   branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
 
 # archive_generator
 archive_generator:
