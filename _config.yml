@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: polarbear
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,10 @@ deploy:
   type: git
   repo: https://github.com/AmeLYZ/AmeLiu.github.io
   branch: master
+
+# archive_generator
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
